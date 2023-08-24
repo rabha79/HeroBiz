@@ -1,0 +1,166 @@
+:root{
+    --black-color: #1A1A1A;
+    --nav-color: #E98A1D;
+    --orange-color: #E9AD28;
+}
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+
+}
+/* start navbar */
+.navbar{
+    background-color: var(--black-color);
+}
+.navbar .navbar-nav .nav-link{
+    color: white;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover{
+    color: var(--nav-color);
+}
+.navbar .navbar-toggler{
+    color: white;
+    border-color: rgb(61, 55, 55);
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar .btn{
+    background-color: white;
+    color: var(--black-color);
+    letter-spacing: 3px;
+    border-color: var(--black-color);
+}
+.navbar .btn .arrow{
+    color: var(--orange-color);
+}
+/* end navbar */
+/* start landing */
+.landing{
+    background-image: url('../img/hero.jpg');
+    min-height: calc(100vh - 74px);
+    height: 780px;
+}
+.landing h5{
+    color: var(--orange-color);
+    font-family: 'Barlow Condensed';
+    letter-spacing: 4px;
+}
+.landing p{
+    font-family: 'Barlow Condensed';
+    font-size: 70px;  
+}
+.hero__book{
+    background-color: white;  
+  }
+  
+  .hero__book p{
+    color: rgba(0 0 0 / .6);
+  }
+  
+  .hero__input__cont{
+    border: 1px solid rgba(0 0 0 / .2);
+    color: #dead25;
+    padding: 1px 40px 1px 15px;
+    height: 26px; 
+    width: 255.4px
+  }
+  .hero__input{
+    outline: 0;
+  }
+/* end landing */
+/* start aboutUs */
+.aboutUs .text{
+padding-top: 90px;
+}
+.aboutUs h5{
+    font-family: 'Barlow Condensed';
+    color: var(--orange-color);
+}
+.aboutUs h2{
+    font-family: 'Barlow Condensed';
+    /* font-weight: 600; */
+}
+.aboutUs .image{
+    margin-top: -100px;
+}
+/* end aboutUs */
+/*start room */
+.room img{
+    width: 100%;
+    height: 100%;
+}
+.room .room-text{
+    margin-top: -120px;
+    color: white;
+    font-family: 'Barlow Condensed';
+}
+/*end room */
+/* start explore */
+.explore h3{
+    padding: 70px;
+    font-family: 'Barlow Condensed';
+}
+.explore .main-btn{
+    margin: 70px;
+    letter-spacing: 2px;
+    background-color: var(--orange-color);
+    border-color: var(--orange-color);
+}
+/* end explore */
+/* start customer */
+.customer h5{
+    color: var(--orange-color);
+}
+.customer h6{
+    margin-right: 400px;
+}
+.customer .famous h5{
+    margin-right: 400px;
+}
+/* end customer */
+/* start chooseUs */
+.chooseUs{
+    background-image: url(../img/chooseus-bg.jpg);
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    height: 80%;
+    padding-top: 80px;
+}
+.chooseUs h5{
+    color: var(--orange-color);
+    font-family: 'Barlow Condensed';
+}
+.chooseUs h2{
+    font-family: 'Barlow Condensed';
+}
+.chooseUs .btn {
+background-color: white;
+color: var(--black-color);
+border-color: var(--black-color);
+}
+/* end chooseUs */
+/* start gallery */
+.gallery{
+    padding-top: 90px;
+}
+.gallery h5{
+    color: var(--orange-color);
+    font-family: 'Barlow Condensed';
+    letter-spacing: 2px;
+}
+.gallery h2{
+    font-family: 'Barlow Condensed';
+}
+.gallery .btn{
+    background-color: var(--orange-color);
+    color: white;
+    letter-spacing: 3px;
+    border-color: var(--orange-color);
+}
+.gallery .btn .arrow{
+    color: white;
+}
+/* end gallery */
